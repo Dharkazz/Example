@@ -1,0 +1,95 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+}
+
+a {
+  color: #3CB787;
+}
+
+a:hover {
+  color: red;
+}
+
+form.newsletter {
+  border: 1px solid #666666;
+  padding: 10px;
+  margin-top: 5px;
+  position: relative;
+  z-index: 0;
+}
+
+.newsletter h2 {
+  margin-top: 0px;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 0 5px;
+}
+
+input[type="submit"]{
+  width: 100%;
+  background: #3CB787;
+  color: white;
+  height: 30px;
+  margin: 0 0 5px;
+}
+
+.exitbutton {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  
+}
+
+.question_button {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 100px;
+  background: #3CB787;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px #666666;
+  text-decoration: none;
+    
+}
+
+.key_features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  
+}
+
+
+.feature {
+  background: #3CB787;
+  padding: 30px;
+  margin: 10px 0px;
+  width: 130px;
+  box-shadow: 10px 10px 5px #666666
+  
+}
+
+.feature p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold; 
+  margin-bottom: 0px;
+  text-align: center;
+}

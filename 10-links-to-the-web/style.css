@@ -1,0 +1,23 @@
+a {
+  font-family: 'Sen', sans-serif;
+  font-size: 30px
+}
+
+.no_decoration {
+  text-decoration: none;
+  color: lime;
+  
+}
+
+.green {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+div a {
+  margin: 10px;
+  display: block;
+}
